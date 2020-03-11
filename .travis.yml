@@ -1,6 +1,7 @@
-language: cpp
+language: cpp 
 os: linux
+install: pip install --user cpplint
 script:
     - g++ main.cpp
-    - scan-build g++ -c main.cpp
+    - cpplint main.cpp
 
