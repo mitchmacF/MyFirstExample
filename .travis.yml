@@ -2,3 +2,5 @@ language: cpp
 os: linux
 script:
     - g++ main.cpp
+    - scan-build g++ -c main.cpp
+

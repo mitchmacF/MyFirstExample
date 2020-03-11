@@ -12,5 +12,8 @@ int main()
     cin >> x;
     cin >> y;
 
+    int z;
+    z = 5;
+
     return 0;
 }
